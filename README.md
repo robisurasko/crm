@@ -88,15 +88,7 @@ The motivation behind building Frappe CRM stems from the need for a simple, cust
 
 ### Managed Hosting
 
-Get started with your personal or business site with a few clicks on Frappe Cloud - our official hosting service.
-<div>
-	<a href="https://frappecloud.com/crm/signup" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/try-on-fc-white.png">
-			<img src="https://frappe.io/files/try-on-fc-black.png" alt="Try on Frappe Cloud" height="28" />
-		</picture>
-	</a>
-</div>
+You can try [our cloud](https://superapp.rndsolusi.com/crm/signup), a simple and user-friendly
 
 ### Self Hosting
 
@@ -177,10 +169,7 @@ You need Docker, docker-compose and git setup on your machine. Refer [Docker doc
 
 ## Learn and connect
 
--   [Telegram Public Group](https://t.me/frappecrm)
--   [Discuss Forum](https://discuss.frappe.io/c/frappe-crm)
--   [Documentation](https://docs.frappe.io/crm)
--   [YouTube](https://www.youtube.com/channel/UCn3bV5kx77HsVwtnlCeEi_A)
+- [Telegram contact me ](https://t.me/robisurasko)
 
 <br>
 <br>
