@@ -4,7 +4,7 @@
     <img src=".github/logo.svg" height="80" alt="Frappe CRM Logo">
 </a>
 
-<h1>Frappe CRM</h1>
+<h1>CRM</h1>
 
 **Simplify Sales, Amplify Relationships**
 
@@ -76,7 +76,7 @@ The motivation behind building Frappe CRM stems from the need for a simple, cust
 
 -   **Twilio:** Integrate Twilio to make and receive calls from the CRM. You can also record calls. It is a built-in integration.
 -   **Exotel:** Integrate Exotel to make and receive calls via agents mobile phone from the CRM. You can also record calls. It is a built-in integration.
--   **WhatsApp:** Integrate WhatsApp to send and receive messages from the CRM. [Frappe WhatsApp](https://github.com/shridarpatil/frappe_whatsapp) is used for this integration.
+-   **WhatsApp:** Integrate WhatsApp to send and receive messages from the CRM. [Frappe WhatsApp](https://github.com/robisurasko/frappe_whatsapp) is used for this integration.
 -   **ERPNext:** Integrate with [ERPNext](https://erpnext.com) to extend the CRM capabilities to include invoicing, accounting, and more.
 
 ### Under the Hood
@@ -135,7 +135,7 @@ The script will set up a production-ready instance of Frappe CRM with all the ne
 1. In the frappe-bench directory, run `bench start` and keep it running.
 1. Open a new terminal session and cd into `frappe-bench` directory and run following commands:
     ```sh
-    $ bench get-app crm
+    $ bench get-app crm or bench get-app --branch main crm https://github.com/robisurasko/crm.git
     $ bench new-site sitename.localhost --install-app crm
     $ bench browse sitename.localhost --user Administrator
     ```
